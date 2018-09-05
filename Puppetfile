@@ -27,7 +27,7 @@ mod 'ntp',
   :git => 'https://github.com/laoyouyu/puppet-ntp.git',
   :ref=>  'master' 
 
-mod 'profille',
+mod 'profile',
   :git => 'https://github.com/laoyouyu/puppet-profile.git',
   :ref => 'production'
 
