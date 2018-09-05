@@ -10,6 +10,7 @@ mod 'puppet-selinux',         '0.8.0'
 mod 'garethr/docker',         '5.3.0'
 mod 'puppetlabs/apt',         '2.3.0'
 mod 'stahnma/epel',           '1.2.2'
+mod 'puppetlabs/ntp',         '6.0.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
@@ -25,9 +26,9 @@ mod 'ssh',
   :git => 'https://github.com/laoyouyu/puppet-ssh.git',
   :ref => 'master'
 
-mod 'ntp',
-  :git => 'https://github.com/laoyouyu/puppet-ntp.git',
-  :ref=>  'master' 
+#mod 'ntp',
+#  :git => 'https://github.com/laoyouyu/puppet-ntp.git',
+#  :ref=>  'master' 
 
 mod 'profile',
   :git => 'https://github.com/laoyouyu/puppet-profile.git',
