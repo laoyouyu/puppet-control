@@ -1,0 +1,9 @@
+---
+profile::nginx::vhosts:
+  - 'fqdn': 'laoyouyu5.mylabserver.com'
+    'port': 80
+    'server_aliases': ''
+  - 'fqdn': 'laoyouyu5b.mylabserver.com'
+     'port': 80
+     'server_aliases': 'laoyouyu5b.mylabserver.com'
+ 
