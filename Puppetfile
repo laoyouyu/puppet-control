@@ -38,3 +38,7 @@ mod 'role',
   :git => 'https://github.com/laoyouyu/puppet-role.git',
   :ref => 'master'
 
+mod 'nginx',
+  :git =>'https://github.com/laoyouyu/puppet-nginx.git',
+  :ref => 'master'
+
