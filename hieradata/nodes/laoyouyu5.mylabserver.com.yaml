@@ -7,6 +7,6 @@ profile::nginx::vhosts:
     'port': 80
     'server_aliases': 'laoyouyu5b.mylabserver.com'
 profile::apache::apache_vhost_servers:
-  - 'name': 'laoyouyu5.mylabserver.com'
-    'port': 80
-    'docroot': '/var/www/laoyouyu5'
+    'laoyouyu5.mylabserver.com':
+      'port': 80
+      'docroot': '/var/www/laoyouyu5'
