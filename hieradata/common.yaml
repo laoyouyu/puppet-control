@@ -5,3 +5,5 @@ profile::base::ntp_servers:
   - 2.centos.pool.ntp.org
   - 3.centos.pool.ntp.org
 profile::apache::default_vhost: false
+classes:
+  - profile::base
