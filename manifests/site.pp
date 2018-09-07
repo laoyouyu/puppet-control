@@ -26,7 +26,7 @@ File { backup => false }
 # specified in the console for that node.
 node /^laoyouyu/ {
   notify { "Notify":
-    message=>"A message from common : ",
+    message=>"A message from common : facts['fqdn'].",
   }
 }
 
