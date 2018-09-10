@@ -35,6 +35,7 @@ node default {
   # Example:
   #   class { 'my_class': }
   hiera_include('classes')
+  $testmessage=hiera('testmessage')
   notify {'testmessage':
     message => "${testmessage}",
   }
